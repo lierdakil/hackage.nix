@@ -6,9 +6,6 @@
 name: Update Hackage Index State Hash
 
 on:
-  schedule:
-    # Run every 5 minutes (minimum interval on GitHub Actions)
-    - cron: '*/5 * * * *'
   workflow_dispatch: # Allow manual triggering
 
 jobs:
